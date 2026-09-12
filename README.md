@@ -27,3 +27,18 @@ git clone [https://github.com/harpind3r/ip-changer.git](https://github.com/harpi
 cd ip-changer
 chmod +x ip-changer.sh
 bash ip-changer.sh
+
+<img width="1835" height="866" alt="Screenshot (455)" src="https://github.com/user-attachments/assets/0c0cc823-6a1c-438b-a88c-05322dbf6ad8" />
+
+Browser Configuration (Optional)
+If you want to route your normal web browser traffic (like Firefox) through the rotating Tor IPs, you need to manually configure your browser's proxy settings.
+
+Open your browser settings.
+
+Search for Network Settings or Proxy.
+
+Select Manual proxy configuration.
+
+Set the SOCKS Host to 127.0.0.1 and Port to 9050.
+
+Ensure SOCKS v5 is selected and save the changes.
