@@ -17,9 +17,17 @@ A lightweight and powerful Bash script that utilizes the Tor network to dynamica
 - `tor` and `curl` installed on your system
 - Root (`sudo`) privileges
 
+##  Installation
 
+You can install `ip-changer` using either `git` or `curl`.
 
-
+### Option 1: Using `git clone` (Recommended)
+```shell
+git clone https://github.com/harpind3r/ip-changer.git
+cd ip-changer
+chmod +x ip-changer.sh
+bash ip-changer.sh 
+````
 ## Browser Configuration (Optional)
 If you want to route your normal web browser traffic (like Firefox) through the rotating Tor IPs, you need to manually configure your browser's proxy settings.
 
@@ -35,16 +43,3 @@ Ensure SOCKS v5 is selected and save the changes.
 
 
 <img width="1835" height="866" alt="Screenshot (455)" src="https://github.com/user-attachments/assets/2454a1bc-07e5-4fb3-8987-70a4f4e088c6" />
-
-
-##  Installation
-
-You can install `ip-changer` using either `git` or `curl`.
-
-### Option 1: Using `git clone` (Recommended)
-```shell
-git clone https://github.com/harpind3r/ip-changer.git
-cd ip-changer
-chmod +x ip-changer.sh
-bash ip-changer.sh
-
